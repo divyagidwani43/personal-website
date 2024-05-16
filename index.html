@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>divya gidwani</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <article>
+      <section id="navbar">
+        <button
+          style="
+            background-color: rgba(0, 0, 0, 0);
+            border: 0px;
+            float: right;
+            margin-right: 10%;
+          "
+          onclick="showDiv()"
+        >
+          <div
+            style="
+              width: 25px;
+              height: 3px;
+              background-color: rgb(251, 248, 248);
+              margin: 5px 0;
+            "
+          ></div>
+          <div
+            style="
+              width: 25px;
+              height: 3px;
+              background-color: rgb(251, 248, 248);
+              margin: 5px 0;
+            "
+          ></div>
+          <div
+            style="
+              width: 25px;
+              height: 3px;
+              background-color: rgb(251, 248, 248);
+              margin: 5px 0;
+            "
+          ></div>
+        </button>
+        <br />
+        <span id="links">
+          <br />
+          <a style="display: block; text-align: center" href="index.html"
+            >Home</a
+          >
+
+          <a
+            style="display: block; text-align: center"
+            id="project-link"
+            href="projects.html"
+            >Projects</a
+          >
+          <a
+            style="display: block; text-align: center"
+            href="/final resume 2.pdf"
+            target="_blank"
+            >Resume</a
+          >
+          <a style="display: block; text-align: center" href="#get-in-touch"
+            >contact me</a
+          >
+          <!-- <button onclick="scrolldiv1()">get in touch ></button> -->
+        </span>
+      </section>
+
+      <div class="background">
+        <section id="start-page">
+          <img src="IMG_0098.jpg" height="200px" /><br />
+          <span class="name-here">Divya Gidwani</span>
+          <h1>Frontend developer</h1>
+          <h1>Skilled in HTML, CSS, JavaScript, ReactJS</h1>
+          <button onclick="scrolldiv1()">Get in touch ></button>
+        </section>
+      </div>
+
+      <section id="projects">
+        <h1 class="title">Selected Projects</h1>
+        <div id="pig">
+          <h1>pig game</h1>
+          <a href="https://divyagidwani43.github.io/pig-game/"
+            ><img src="pig.png" height="140px" width="250px"
+          /></a>
+        </div>
+        <div id="guess">
+          <h1>Guess my number</h1>
+          <a href="https://divyagidwani43.github.io/guess-my-number1/"
+            ><img src="guese.png" height="140px"
+          /></a>
+        </div>
+        <div class="clear"></div>
+        <br />
+        <button id="see-more"><a href="projects.html">see more ></a></button>
+      </section>
+
+      <br /><br />
+
+      <h1 class="title">About Me</h1>
+      <section id="content">
+        <img id="profile-img" src="IMG_0098.jpg" height="300px" />
+        <div id="details">
+          <h1>
+            Hello!<br />
+            I'm Divya Gidwani
+          </h1>
+          <p>
+            I'm Frontend developer. Proficient In HTML, CSS, And JavaScript, I
+            Have A Strong Command Of Frontend Framework React.Js.
+          </p>
+          <p>
+            My Journey Into Frontend Development Began With A Fascination For
+            Blending Creativity With Technology.I Specialize In Transforming
+            Design Concepts Into Responsive, User-Friendly Interfaces.
+          </p>
+        </div>
+      </section>
+
+      <section id="get-in-touch">
+        <p>get in <br />touch</p>
+        <div id="touch-links">
+          <h2>email - dg532022@gmail.com</h2>
+          <h2>
+            other links -
+            <a href="https://www.linkedin.com/in/divya-gidwani-2b6697227/"
+              ><i class="fa fa-linkedin-square" style="font-size: 35px"></i
+            ></a>
+            <a href="https://github.com/divyagidwani43"
+              ><i style="font-size: 35px" class="fa">&#xf09b;</i>
+            </a>
+          </h2>
+        </div>
+      </section>
+    </article>
+    <script>
+      function scrolldiv1() {
+        var elem = document.getElementById("get-in-touch");
+        elem.scrollIntoView();
+      }
+      function showDiv() {
+        if (document.getElementById("links").style.display == "none") {
+          document.getElementById("links").style.display = "block";
+        } else {
+          document.getElementById("links").style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>divya gidwani</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <article>
+      <section id="navbar">
+        <a class="name" href="index.html">Divya Gidwani</a>
+        <span id="links">
+          <a id="project-link" href="projects.html">Projects</a>
+          <a href="/final resume 2.pdf" target="_blank">Resume</a>
+          <button onclick="scrolldiv1()">get in touch ></button>
+        </span>
+      </section>
+      <section id="projects">
+        <h1 class="title">Projects</h1>
+        <div id="pig">
+          <h1>pig game</h1>
+          <a href="https://divyagidwani43.github.io/pig-game/"
+            ><img src="pig.png" height="140px" width="250px"
+          /></a>
+        </div>
+        <div id="guess">
+          <h1>Guess my number</h1>
+          <a href="https://divyagidwani43.github.io/guess-my-number1/"
+            ><img src="guese.png" height="140px"
+          /></a>
+        </div>
+        <div class="clear"></div>
+      </section>
+      <br /><br />
+      <br /><br />
+      <br /><br />
+      <section id="get-in-touch">
+        <p>get in <br />touch</p>
+        <div id="touch-links">
+          <h2>email - dg532022@gmail.com</h2>
+          <h2>
+            other links -
+            <a href="https://www.linkedin.com/in/divya-gidwani-2b6697227/"
+              ><i class="fa fa-linkedin-square" style="font-size: 35px"></i
+            ></a>
+            <a href="https://github.com/divyagidwani43"
+              ><i style="font-size: 35px" class="fa">&#xf09b;</i>
+            </a>
+          </h2>
+        </div>
+      </section>
+    </article>
+    <script>
+      function scrolldiv1() {
+        var elem = document.getElementById("get-in-touch");
+        elem.scrollIntoView();
+      }
+    </script>
+  </body>
+</html>
